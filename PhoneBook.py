@@ -43,7 +43,6 @@ def myPhoneBook():
                 name_delete = input("What to remove?\n")
                 name_search = map(lambda x : name_delete, names)
                 result = list(name_search)[0]
-
                 if(name_delete == result):
                     names.pop(name_delete)
                     print("Removed Successfully")
